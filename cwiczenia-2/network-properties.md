@@ -76,7 +76,10 @@ Efekt
 ```
 
 Warto wiedzieć
---------------
+ifup enp0s3 - wlaczenie interface
+if down enp0s3 - wylaczenie karty sieciowej
+ip a - pokazuje adresy
+nmcli - wyswietla stan karty sieciowej itp.
 
 -------------------------
 | Parametr | wartość | komentarz(opcionalny) |
