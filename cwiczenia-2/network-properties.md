@@ -32,15 +32,15 @@ Efekt
 Statyczna konfiguracja parametrów połączenia
 Wejściowe parametry sieci
 -------------------------
-| Parametr | wartość | komentarz(opcionalny) |
+| Parametr | wartość | komentarz(opcjonalny) |
 | ------------- |:-------------:| -----:|
 |   PC 1 |  
 | IP - address  | 192.168.10.10 | |
-| MASKA  | 255.255.255.0 | |
+| MASKA  | 255.255.255.0 | zapis /24 |
 |   |  | |
 | PC 2  |  | |
 | IP - address  | 172.16.100.100 | |
-| MASKA  | 255.255.0.0 | |
+| MASKA  | 255.255.0.0 | zapis /24 |
 
 Weryfikacja połączenia
 
