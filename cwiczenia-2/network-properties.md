@@ -9,11 +9,11 @@ Ustawianie parametrów sieci
 
 Wejściowe parametry sieci
 -------------------------
-| Parametr | wartość | komentarz(opcionalny) |
+| Parametr | wartość | komentarz(opcjonalny) |
 | ------------- |:-------------:| -----:|
 |   PC 1 |  
-| IP - address  | | |
-| MASKA  | | |
+| IP - address  | 10.0.2.15 | |
+| MASKA  | 255.255.255.0 | zapis /24 |
 |   |  | |
 | PC 2  |  | |
 | IP - address  | | |
@@ -55,7 +55,7 @@ Efekt
 Nowa statyczna konfiguracja 
 
 -------------------------
-| Parametr | wartość | komentarz(opcionalny) |
+| Parametr | wartość | komentarz(opcjonalny) |
 | ------------- |:-------------:| -----:|
 |   PC 1 |  
 | IP - address  |  | |
@@ -84,7 +84,7 @@ nmcli - wyswietla stan karty sieciowej itp.
 ```
 
 -------------------------
-| Parametr | wartość | komentarz(opcionalny) |
+| Parametr | wartość | komentarz(opcjonalny) |
 | ------------- |:-------------:| -----:|
 | Lokalizacja pliku z konfiguracją sieci| | |
 | UP -> Wyłączenie interfejsu sieciowego| | |
