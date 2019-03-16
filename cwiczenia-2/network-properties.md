@@ -16,18 +16,19 @@ Wejściowe parametry sieci
 | MASKA  | 255.255.255.0 | zapis /24 |
 |   |  | |
 | PC 2  |  | |
-| IP - address  | | |
-| MASKA  | | |
+| IP - address  | 10.0.2.15 | CentOS - musiałem połączyć się z siecią za pomocą DHCP - "dhclient -v enp0s3" |
+| MASKA  | 255.255.255.0 | zapis /24 |
 
 Weryfikacja połączenia
 
 Polecenie
 ```
+na przykład:
+ping 212.77.98.9
 ```
 
 Efekt
-```
-```
+![efekt1](./efekt1.png)
 
 Statyczna konfiguracja parametrów połączenia
 Wejściowe parametry sieci
@@ -86,10 +87,10 @@ nmcli - wyswietla stan karty sieciowej itp.
 -------------------------
 | Parametr | wartość | komentarz(opcjonalny) |
 | ------------- |:-------------:| -----:|
-| Lokalizacja pliku z konfiguracją sieci| | |
-| UP -> Wyłączenie interfejsu sieciowego| | |
-| DOWN -> Włączenie interfejsu sieciowego| | |
-| Sprawdzenie obecnych parametrów | | |
-| lista wszystkich interfejsów | | |
-| Które interfejsy jakie porty słuchają | | |
+| Lokalizacja pliku z konfiguracją sieci| cd /etc | |
+| UP -> Włączenie interfejsu sieciowego| ip link set {interface_name} up | |
+| DOWN -> Wyłączenie interfejsu sieciowego| ip link set {interface_name} down | |
+| Sprawdzenie obecnych parametrów | ip addr | |
+| lista wszystkich interfejsów | ip link show | |
+| Które interfejsy jakie porty słuchają | netstat --listen | |
 
