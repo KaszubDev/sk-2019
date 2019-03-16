@@ -11,11 +11,11 @@ Wejściowe parametry sieci
 -------------------------
 | Parametr | wartość | komentarz(opcjonalny) |
 | ------------- |:-------------:| -----:|
-|   PC 1 |  
+|   PC 1 |  Peppermint | |
 | IP - address  | 10.0.2.15 | |
 | MASKA  | 255.255.255.0 | zapis /24 |
 |   |  | |
-| PC 2  |  | |
+| PC 2  | CentOS | |
 | IP - address  | 10.0.2.15 | CentOS - musiałem połączyć się z siecią za pomocą DHCP - "dhclient -v enp0s3" |
 | MASKA  | 255.255.255.0 | zapis /24 |
 
@@ -27,7 +27,7 @@ na przykład:
 ping 212.77.98.9
 ```
 
-Efekt
+Efekt  
 ![efekt1](./efekt1.png)
 
 Statyczna konfiguracja parametrów połączenia
@@ -35,11 +35,11 @@ Wejściowe parametry sieci
 -------------------------
 | Parametr | wartość | komentarz(opcjonalny) |
 | ------------- |:-------------:| -----:|
-|   PC 1 |  
+|   PC 1 | Peppermint | |
 | IP - address  | 192.168.10.10 | |
 | MASKA  | 255.255.255.0 | zapis /24 |
 |   |  | |
-| PC 2  |  | |
+| PC 2  | CentOS | |
 | IP - address  | 172.16.100.100 | |
 | MASKA  | 255.255.0.0 | zapis /24 |
 
