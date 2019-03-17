@@ -25,14 +25,26 @@ ip
 -------------------------
 | subcommand    |  polecenie   | opis  |
 | ------------- |:-------------| :---------------| 
-|   ``addr``    |                               | infirmacje o adresacji i własnościach interfejsów |
+|   ``addr``    |                               | informacje o adresacji i własnościach interfejsów |
 |               |   ``ip addr``                 | informacja o wszystkich interfejsach              |
 |               |   ``ip addr show dev enp0s3`` | informacja o konkretnym interfejsie               |
-|   ``link``    |                               |  |
-|   ``route``   |  | |
-|   ``maddr``   |  | |
-|   ``neigh``   |  | |
-|   ``help``    |  | |
+|   ``link``    |                               | konfiguracja, włączanie, wyłączania i zarządzanie urządzeniami sieciowymi |
+|               |   ``ip link``                 | wyświetla informacje o wszystkich interfejsach |
+|               |   ``ip link set``             | polecenie to służy do zmiany ustawień istniejących interfejsów |
+|               |   ``ip link show``            | polecenie to służy do wyświetlania bieżącej konfiguracji urządzeń sieciowych. |
+|   ``route``   |                               | służy do zarządzania tablicami routingu wewnątrz jądra |
+|               |    ``ip route add``           | dodawanie tras do wybranej tablicy routingu. Domyślną tablicą jest main (id 254) |
+|               |    ``ip route list``          | wyświetlania zawartości tablic routingu. Synonimem jest ``ip route show`` |
+|               |    ``ip route get``           | znalezienie trasy do danego adresu |
+|   ``maddr``   |                               | wyświetla i pozwala zarządzać multicast IP |
+|               |    ``ip maddr``               | wyświetla informacje dla wszystkich urządzeń |
+|               |    ``ip maddr show dev enp0s3`` | wyświetla informacje dla urządzenia enp0s3 |
+|   ``neigh``   |                               | zarządzanie i wyświetlanie tablicy sąsiedztwa |
+|               |    ``ip neigh``               | wyświetla tablice sąsiedztwa |
+|               |    ``ip neighbour add/del``   | dodaje lub usuwa pojedynczy wpis |
+|               |    ``ip neighbour change``    | zmienia istniejący wpis |
+|               |    ``ip neighbour show``      | wyświetlanie zawartości tablicy sąsiedztwa |
+|   ``help``    |                               | wyświetla listę komend i argumentów dla każdej podkomendy |
 
 Zadanie
 ------------
