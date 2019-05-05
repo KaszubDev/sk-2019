@@ -20,4 +20,6 @@ Na PC1 za pomocą polecenia ``curl -X POST -d '{"text": "Hello World"}' http://1
 
 ![diagram2](/ćwiczenia-3/cwiczenia3.1.svg)
 
-5. Weryfikacja połączenia korzystając z przeglądarki, odwiedzając graficzny interfejs ``HTTP CHAT`` pod adresem ``http://172.16.100.10:8888``
+5. Weryfikacja połączenia korzystając z przeglądarki, odwiedzając graficzny interfejs ``HTTP CHAT`` pod adresem ``http://172.16.100.10:8888``  
+
+![interface](/ćwiczenia-3/interface.png)
