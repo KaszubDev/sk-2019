@@ -20,6 +20,7 @@ ip
 |                |  ``ip route show dev eth0``   | pokaż tablicę dla urządzenia eth0 |
 | |  ``ip route add 192.168.55.0/24 via 192.168.1.254 dev eth0``| dodaj trasę do sieci 192.168.55.0/24 przez ruter o adresie 192.168.1.254 dla urządzenia eth0 |
 |              |    ``ip route add default via 192.168.1.254`` | dodaj domyślną bramę dla urządzenia eth0 |
+|              |     ``ip route delete``         | usuń trasę |
  
 
 Zadanie
