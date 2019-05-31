@@ -44,4 +44,9 @@ Zadanie do domu
 1. Przygotuj konfigurację z zadania 1 wykorzystując inny system operacyjny na komputerze pełniącym rolę routera.
   * debian -> centos lub centos -> debian
   * zapewnij poprawną komunikację pomiędzy PC3 -> PC1
-  
+
+Warto wiedzieć
+------------
+/etc/sysconfig/network  -> FORWARD_IPV4=true
+/proc/sys/net/ipv4/ip_forward
+service network restart
