@@ -47,6 +47,6 @@ Zadanie do domu
 
 Warto wiedzieć
 ------------
-/etc/sysconfig/network  -> FORWARD_IPV4=true
-/proc/sys/net/ipv4/ip_forward
-service network restart
+/etc/sysconfig/network  -> FORWARD_IPV4=true 
+/proc/sys/net/ipv4/ip_forward 
+service network restart 
