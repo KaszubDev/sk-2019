@@ -7,16 +7,17 @@ Struktura adresu IP
 Adres sieci
 -----------
 
-1. 
-2.
-3.
+1. Zmieniamy adres IP oraz maskę na postać binarną
+2. Wykonujemy operacje AND
+3. Adres IP sieci to 192.168.100.0
 
 Adres rozgłoszeniowy
 -----------
 
-1. 
-2.
-3.
+1. Zmieniamy maskę na postać binarną oraz wykonujemy operację logiczną NOT
+2. Zamieniamy otrzymaną liczbę binarną na postać dziesiętną
+3. Otrzymaną liczbę dziesiętną dodajemy do adresu sieci
+4. Adres rozgłoszeniowy (broadcast) to 192.168.100.255
 
 
 Podział na równą ilość podsieci
@@ -35,14 +36,14 @@ Wprowadzenie
 ------------------------------
 | dziesiętnie |  binarnie   | 
 | --------- |:-------------| 
-| ``10``  |  | 
-| ``92``  | | 
-| ``37``  | | 
-| ``240`` | | 
-| ``192`` | | 
-| ``255`` | | 
-| ``128`` | | 
-| ``168`` | | 
+| ``10``  | 1010 | 
+| ``92``  | 1011100 | 
+| ``37``  | 100101 | 
+| ``240`` | 11110000 | 
+| ``192`` | 11000000 | 
+| ``255`` | 11111111 | 
+| ``128`` | 10000000 | 
+| ``168`` | 10101000 | 
 
 
 ------------------------------
