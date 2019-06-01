@@ -113,11 +113,11 @@ Mając dany adres hosta i maskę znajdź:
 | --------- |:-------------| 
 | ``ip``    | 192.168.1.145| 
 | ``maska``   | 255.255.255.128 | 
-| ``adres sieci``   | |
-| ``liczba hostów``   | |
-| ``host - min``   | | 
-| ``host - max``   | | 
-| ``broadcast``   | | 
+| ``adres sieci``   | 192.168.1.128 |
+| ``liczba hostów``   | 126 |
+| ``host - min``   | 192.168.1.129 | 
+| ``host - max``   | 192.168.1.254 | 
+| ``broadcast``   | 192.168.1.255 | 
  
 Zadanie
 ------------
@@ -129,11 +129,11 @@ Zadanie
 | --------- |:-------------| 
 | ``ip``    | 192.168.1.145| 
 | ``maska``   | 255.255.255.128 | 
-| ``adres sieci``   | |
-| ``liczba hostów``   | |
-| ``host - min``   | | 
-| ``host - max``   | | 
-| ``broadcast``   | | 
+| ``adres sieci``   | 172.16.0.0 |
+| ``liczba hostów``   | 65534 |
+| ``host - min``   | 172.16.0.1 | 
+| ``host - max``   | 172.16.255.254 | 
+| ``broadcast``   | 172.16.255.255 | 
 
 1.
   * Podziel sieć ```192.168.1.0``` na 16 równych podsieci
