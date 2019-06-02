@@ -18,4 +18,4 @@ oraz w konsoli wpisac ``reboot`` aby zmiany się wczytały
  * ``iptables -t nat -A POSTROUTING -o enp0s3 -j MASQUERADE``
 7. PC2:
  * ``ip route add default via 192.168.64.193 dev enp0s3`` 
-Teraz mamy połączenie z internetem również na urządzeniu PC2.
+8. Teraz mamy połączenie z internetem również na urządzeniu PC2.
