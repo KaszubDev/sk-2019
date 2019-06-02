@@ -22,3 +22,11 @@
 |         |enp0s9       |172.22.160.1/19     |
 | ``PC1`` |enp0s3       |172.22.128.2/23     |
 | ``PC2`` |enp0s3       |172.22.160.2/19     |
+
+ 6. Dodajemy routing w PC1 oraz PC2
+  * ``ip route add default via 172.22.128.1 dev enp0s3`` - dla PC1
+  * ``ip route add default via 172.22.160.1 dev enp0s3`` - dla PC2
+ 7. W PC0 włączamy forwarding ``echo 1 > /proc/sys/net/ipv4/ip_forward`` oraz regułę masquerade ``iptables -t nat -A POSTROUTING -s 172.22.128.0/23 -o enp0s3 -j MASQUERADE`` i ``iptables -t nat -A POSTROUTING -s 172.22.160.0/19 -o enp0s3 -j MASQUERADE``
+ 8. Mamy już połączenie z siecią Internet na wszystkich trzech urządzeniach.
+ ### Schemat
+ ![schemat](schemat.svg)
