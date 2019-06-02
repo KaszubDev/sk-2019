@@ -49,4 +49,5 @@ Warto wiedzieć
 ------------
 * /etc/sysconfig/network  -> FORWARD_IPV4=true 
 * /proc/sys/net/ipv4/ip_forward 
+* net.ipv4.conf.default.forwarding=1 in /etc/sysctl.conf
 * service network restart 
