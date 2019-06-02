@@ -13,4 +13,9 @@
 oraz w konsoli wpisac ``reboot`` aby zmiany się wczytały
 5. Sprawdzamy czy PC1 ma połączenie z siecią Internet.
 ![screen](check.png) 
-6. 
+6. PC1: 
+ * ``vi /etc/sysconfig/network`` -> ``FORWARD_IPV4=true``
+ * ``iptables -t nat -A POSTROUTING -o enp0s3 -j MASQUERADE``
+7. PC2:
+ * ``ip route add default via 192.168.64.193 dev enp0s3`` 
+Teraz mamy połączenie z internetem również na urządzeniu PC2.
