@@ -1,6 +1,6 @@
 # Projekt sieci lokalnej dla jednostki dydaktycznej uniwersytetu  
 
-![schemat_sieci](Diagram.svg)
+![schemat_sieci](Diagram.png)
 
 * sale - ``188.156.220.160/28``
   * podsieć - ``10.0.0.0/16``
